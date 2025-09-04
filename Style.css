@@ -9,8 +9,15 @@
 
 
 body {
-    font-family: "inter", sans-serif;
-    line-height: 1.6;
+
+  font-family: 'MiFuente';
+  src: url('fonts/MiFuente.woff2') format('woff2'),
+       url('fonts/MiFuente.woff') format('woff');
+
+
+
+
+    line-height: 2.0;
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
@@ -71,7 +78,7 @@ body {
 }
 
 .accordion-nav .nav-link {
-    color: white; /* Cambiar color de los enlaces dentro del acordeón */
+    color: #ffffff; /* Cambiar color de los enlaces dentro del acordeón */
     padding: 0.5rem 0;
     display: block;
 }
@@ -118,30 +125,30 @@ body {
     display: block;
     width: 50%;
     height: 4px;
-    background: var(--primary-color);
+ background: var(--primary-color);
     margin: 10px auto 0;
 }
 
 /*Dimensiones y aspectos de la foto de perfil*/
 .profile-photo {
-    width: 250px;
-    height: 250px;
-    border-radius: 90%;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
     object-fit: cover;
-    border: 5px solid var(--primary-color);
+    border: 7px solid var(--primary-color);
     margin-bottom: 1rem;
 }
 
 /*Tamaños y color para el nombre*/
 .profile-name {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 0.5rem 0;
     color: var(--secondary-color);
 }
 
 .profile-summary {
     max-width: 600px;
-    margin: 0 auto 2.5rem;
+    margin: 0 auto 3rem;
 }
 
 .list, .list-inline {
@@ -152,8 +159,8 @@ body {
 /*Sección para cambiar colores de fondo, tamaño de letra y alineación del texto o contenedores
 del area de Estudios realizados y experiencia laboral*/
 .list li {
-    background-color: rgb(210, 238, 205);
-    border-left: 5px solid var(--primary-color);
+    background-color: #d2eecd;
+    border-left: 10px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -162,7 +169,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 .list-inline li {
     display: inline-block;
-    background-color: var(--light-gray);
+    background-color: #d2eecd;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     margin: 0.5rem;
@@ -189,7 +196,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color a la letra o fondo de cada link en el Linktree */
 .linktree-link {
-    background-color: rgb(220, 200, 150);
+    background-color: #1d573e;
     color: rgb(250, 250, 250);
     text-decoration: none;
     padding: 1rem 2rem;
@@ -200,7 +207,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Efecto de otro color al pasar el mouse por el botón*/
 .linktree-link:hover {
-    background-color: #2980b9;
+    background-color: #576066;
 }
 
 /* Contact Form */
@@ -214,7 +221,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para darle color a los bordes, tamaño y ajustes a las cajas de texto del formulario*/
 .contact-form input,
-.contact-form textarea {
+.contact-form textaa {
     padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #553535;
